@@ -1,0 +1,336 @@
+<!-- main.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Taylor Vasquez Portfolio</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" >
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <style>
+            /*Quick styling for the More About Me Button*/
+            .button {
+              background-color: #831aed;
+              border: none;
+              border-radius: 10px ;
+              color: white;
+              padding: 10px 20px;
+              text-align: center;
+              text-decoration: none;
+              font-size: 15px;
+              cursor: pointer;
+            }
+        </style>
+
+    </head>
+    <!-- Beginning of body -->
+    <body>
+        <!-- Start of the Header for Navbar -->
+        <header>
+
+            <button class="nav-toggle" aria-label="togglw navigation">
+                <span class="hamburger"></span>
+            </button>
+            <!-- Easy to use navbar -->
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#resume" class="nav__link">Resume</a></li>
+                    <li class="nav__item"><a href="#curriculmvita" class="nav__link">Curriculm Vita</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Technical Skills</a></li>
+                    <li class="nav__item"><a href="#cert" class="nav__link">Certificates</a></li>
+                    <li class="nav__item"><a href="#innovation" class="nav__link">Bachelor of Innovation</a></li>
+                    <li class="nav__item"><a href="#personal" class="nav__link">Personal Statement</a></li>
+                    <li class="nav__item"><a href="#deployment" class="nav__link">Innovation Deployment</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#reference" class="nav__link">References</a></li>
+                </ul>
+            </nav>   
+        </header>
+        <!-- End of the Header for Navbar -->
+
+        <!-- Intro Section -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Taylor Vasquez</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+            <!-- Professional Headshot -->
+            <img src="IMG/Headshots/Vasquez-01-web.jpg" alt="sample image" class="intro__img"> 
+        </section>
+        <!-- End of Intro Section -->
+
+        <!-- Resume Section -->
+        <section class="resume-link" id="resume">
+            <h1 class="section__title section__title--resume">My <strong>Resume</strong></h1>
+            <p class="section__subtitle section__subtitle--resume">Taylor Vasquez's Resume</p>
+            <ul class="resume-icon">
+                <p class="resume-icon__item">
+                    <!-- Link to a PDF of my Resume -->
+                    <a class="resume-icon__link" href="PDF/Vasquez-Resume.pdf" target="blank">
+                        <i class="fas fa-file-pdf"></i>
+                    </a>
+                </p>
+            </ul>
+           <img src="IMG/resume-image.png" alt="resume link photo" class="resume-link__img">
+        </section>
+        <!-- End of Resume Section -->
+
+        <!-- Curriculm Vita Section -->
+        <section class="curriculm-vita" id="curriculmvita">
+            <h1 class="section__title section__title--curriculmvita">My <strong>Curriculm Vita</strong></h1>
+            <p class="section__subtitle section__subtitle--curriculmvita">Taylor Vasquez's CV</p>
+            <ul class="cv-icon">
+                <p class="cv__item">
+                    <!-- Link to a PDF of my CV -->
+                    <a class="cv__link" href="PDF/VasquezCV.pdf" target="blank">
+                        <i class="fas fa-file-pdf"></i>
+                    </a>
+                </p>
+            </ul>
+           <img src="IMG/cv-image.jpeg" alt="curriculm-vita photo" class="curriculm-vita__img">
+        </section>
+        <!-- End of Curriculm Vita Section -->
+
+        <!-- Technical Skills Section -->
+        <section class="tech-skills" id="skills">
+            <h1 class="section__title section__title--skills"><strong>Technical Skills</strong></h1>
+            <p class="section__subtitle section__subtitle--skills">List of known programming languages</p>
+            <ul class="skills-list">
+                <!-- Each Language will link to a page that explains what the language is -->
+                <li class="skills-list__item">
+                    Python
+                    <a class="skills-list__link" href="https://builtin.com/software-engineering-perspectives/python" target="blank">
+                        <i class="fab fa-python"></i>
+                    </a>
+                </li>
+                <li class="skills-list__item">
+                    Java
+                    <a class="skills-list__link" href="https://blog.hubspot.com/website/what-is-java" target="blank">
+                        <i class="fab fa-java"></i>
+                    </a>
+                </li>
+                <li class="skills-list__item">
+                    Javascript
+                    <a class="skills-list__link" href="https://www.hostinger.com/tutorials/what-is-javascript" target="blank">
+                        <i class="fab fa-java"></i>
+                    </a>
+                </li>
+                <li class="skills-list__item">
+                    C
+                    <a class="skills-list__link" href="https://www.guru99.com/c-programming-language.html" target="blank">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </li>
+                <li class="skills-list__item">
+                    C++
+                    <a class="skills-list__link" href="https://www.guru99.com/cpp-tutorial.html" target="blank">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </li>
+                <li class="skills-list__item">
+                    HTML
+                    <a class="skills-list__link" href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" target="blank">
+                        <i class="fas fa-file-code"></i>
+                    </a>
+                </li>
+                <li class="skills-list__item">
+                    SQL
+                    <a class="skills-list__link" href="https://www.techtarget.com/searchdatamanagement/definition/SQL" target="blank">
+                        <i class="fas fa-database"></i>
+                    </a>
+                </li>
+                <li class="skills-list__item">
+                    Ruby
+                    <a class="skills-list__link" href="https://builtin.com/software-engineering-perspectives/ruby-programming-language" target="blank">
+                        <i class="fas fa-file-code"></i>
+                    </a>
+                </li>
+            </ul>
+            <img src="IMG/coding.avif" alt="languages image" class="tech-skills__img">
+        </section>
+        <!-- End of Technical Skills Section -->
+
+        <!-- Certificate Section -->
+        <section class="certificate" id="cert">
+            <h1 class="section__title section__title--cert"><strong>Certificates</strong></h1>
+            <p class="section__subtitle section__subtitle--cert">PDF of certificate</p>
+            <ul class="cert-icon">
+                <p class="cert-icon__item">
+                    <!-- The one Certificate I have as of right now -->
+                    <a class="cert-icon__link" href="PDF/Certificate of Completion.pdf" target="blank">
+                        <i class="fas fa-certificate"></i>
+                    </a>
+                </p>
+            </ul>
+            <img src="IMG/certificate.jpeg" alt="languages image" class="certificate__img">
+        </section>
+        <!-- End of Certifcate Section -->
+
+        <!-- Bachelor of Innovation Degree Section -->
+        <section class="inno" id="innovation">
+            <h1 class="section__title section__title--innovation"><strong>Bachelor of Innovation Degree</strong></h1>
+            <p class="section__subtitle section__subtitle--innovation">Summary</p>
+            <!-- Description of the Bachelor of Innovation Program -->
+            <div class="inno__body">
+                <p></p>
+                <p>The Bachelor of Innovation (BI) program at The University of Colorado Colorado Springs (UCCS) is a fully accredited alternative to 
+                    traditional Bachelor of Arts and Bachelor of Science programs. The BI program combines traditional undergraduate coursework in Business, 
+                    Anthropology, Chemistry, Communication, Computer Science, Data Analytics, and more with practical coursework, teamwork, innovation, and 
+                    entrepreneurship training. Innovation is at the center of each program inviting students to work in teams to transform ideas into impact. 
+                    In a dynamic industry, innovation within a business is deemed important to improve productivity, increase competitiveness, improve brand value, 
+                    and form new partnerships. As part of the requirement to obtain a Bachelor’s of Innovation degree, students must complete three years of team-based 
+                    consulting work, affectionately referred to as the INOV Team courses. In these courses, students work closely with a client to complete a project 
+                    that will further the development of the client’s business. Potential clients may apply to work with a student consulting group via the Innovation 
+                    Program webpage located on the UCCS website. From there, clients are chosen by a selection team via a rolling application process. The BI program 
+                    grants students the opportunity to work on real problems while local companies are offered the space to work with young professionals in a 
+                    university setting. 
+                </p>
+            </div>
+            <img src="IMG/uccs.jpeg" alt="uccs logo" class="inno__img">
+        </section>
+        <!-- End of Bachelor of Innovation Degree Section -->
+
+        <!-- Personal Statement Section -->
+        <section class="personal-state" id="personal">
+            <h1 class="section__title section__title--personal"><strong> Personal Statement</strong></h1>
+            <p class="section__subtitle section__subtitle--personal">Personal Statement</p>
+            <ul class="personal-icon">
+                <p class="personal-icon__item">
+                    <!-- Add in pdf of personal statement -->
+                    <a class="personal-icon__link" href="PDF/Vasquez - Personal Statement.pdf" target="blank">
+                        <i class="fas fa-file-pdf"></i>
+                    </a>
+                </p>
+            </ul>
+            <img src="IMG/Headshots/Vasquez-03-web.jpg" alt="personal statement link photo" class="personal-state__img">
+        </section>
+        <!-- End of Personal Statement Section -->
+
+        <!-- Innovation Deployment Section -->
+        <section class="inno-deploy" id="deployment">
+            <h1 class="section__title section__title--deployment"><strong> Innovation Deployment</strong></h1>
+            <p class="section__subtitle section__subtitle--deployment">Innovation</p>
+            <ul class="deployment-icon">
+                <p class="deployment-icon__item">
+                    <!-- Add in pdf of Innovation essay -->
+                    <a class="deployment-icon__link" href="PDF/Vasquez - Innovation Essay.pdf" target="blank">
+                        <i class="fas fa-file-pdf"></i>
+                    </a>
+                </p>
+            </ul>
+            <img src="IMG/inno.webp" alt="innovation deployment link photo" class="inno-deploy__img">
+        </section>
+        <!-- End of Innovation Deployment Section -->
+
+        <!-- About Me Section -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about"><strong>Who I am</strong></h2>
+            <p class="section__subtitle section__subtitle--about">Innovative Software Engineer</p>
+
+            <div class="about-me__body">
+                <p></p>
+                <p>Self-motivated and detail-oriented college student majoring in Computer Science at the University of Colorado, 
+                    Colorado Springs (UCCS). Seeking an opportunity to leverage computer programming skills at your company. 
+                    Works well in team environments as well as individually and will get the job done right and in a timely manner. 
+                    Willing to learn from others and apply that knowledge to correctly complete assigned tasks. Believes in ability to work with others, 
+                    manage my time, and helping others will allow a successful completion of any task.  Hard-working and detail-oriented student driven 
+                    to contribute immediately to your company and learn as much as possible.</p>
+            </div>
+
+            <img src="IMG/AboutMe/about_me5.JPEG" alt="about me photo" class="about-me__img">
+
+            <!-- Link to a More About me page -->
+            <form action="about_me.html">
+                <button type="submit" class="button">More About Me</button>
+            </form>
+        </section>
+        <!-- End of About Me Section -->
+
+        <!-- Projects Section -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work"><strong>Projects</strong></h2>
+            <p class="section__subtitle section__subtitle--work">Projects through the years</p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 1 --> <!-- Advanced Software Project --> <!-- Screen shots of the final output or small video -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="IMG/ADV_WHO_SNOWS.png" alt="Adv project" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 2 --> <!-- Computer Networks Project 1 --> <!-- Screen shots of the final output or small video -->
+                <a href="portfolio-item2.html" class="portfolio__item">
+                    <img src="IMG/clientserver.webp" alt="Adv project" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 3 --> <!-- INOV 3010 PDF of Final Report-->
+                <a href="portfolio-item3.html" class="portfolio__item">
+                    <img src="IMG/Ownr.png" alt="Adv project" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 4 --> <!-- INOV 4010 PDF of Final Report-->
+                <a href="portfolio-item4.html" class="portfolio__item">
+                    <img src="IMG/JJThumb_5 (1).jpg" alt="Adv project" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 5 --> <!-- Operating Systems Projects --> <!-- Screen shots of the final output or small video -->
+                <a href="portfolio-item5.html" class="portfolio__item">
+                    <img src="IMG/os-main.jpeg" alt="Operating Systems" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        <!-- End of Projects Section -->
+
+        <!-- References Section -->
+        <section class="people-ref" id="reference">
+            <h2 class="section__title section__title--reference"><strong>My References</strong></h2>
+            <p class="section__subtitle section__subtitle--references">List of References</p>
+            <ul class="reference-list">
+                <li class="reference-list__item">Elizabeth Gavino</li>
+                <li class="reference-list__item">Dr. Serena "Sully" Sullivan</li>
+            </ul>
+            <p class="referenceinfo"><strong>For contact information on references please email Taylor Vasquez</strong></p>
+            <!-- Add picture here -->
+            <img src="IMG/references.jpeg" alt="reference link photo" class="people-ref__img">
+        </section>
+        <!-- End of References Section -->
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <!-- email address -->
+            <a href="mailto:arivasquez99@gmail.com" class="footer__link">arivasquez99@gmail.com</a>
+            <!--Socials if you want -->
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/TaylorVasquez" target="__blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a class="social-list__link" href="https://www.linkedin.com/in/taylor-vasquez-a6b655269/" target="__blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a class="social-list__link" href="https://www.uccs.edu/" target="__blank">
+                        <i class="fas fa-school"></i>
+                    </a>
+                    <a class="social-list__link" href="https://innovation.uccs.edu/coeas/computer-science" target="__blank">
+                        <i class="fas fa-user-graduate"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <!-- End of Footer Section -->
+
+        <!-- Script link for Navbar Capabilities-->
+        <script src="js/index.js"></script>
+    </body>
+    <!-- End of Body -->
+</html>
+<!-- End of main.html -->
